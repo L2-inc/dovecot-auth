@@ -2,6 +2,7 @@ FROM alpine
 
 WORKDIR /etc/dovecot
 
+EXPOSE 1026
 
 RUN apk add --no-cache dovecot
 
