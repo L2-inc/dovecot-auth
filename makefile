@@ -1,4 +1,4 @@
 .build: Dockerfile
-	docker build . -t kzwin/postfix-submission > .build
+	docker build . -t kzwin/dovecot-auth > .build
 push: Dockerfile .build
-	docker push kzwin/postfix-submission > push
+	docker push kzwin/dovecot-auth > push

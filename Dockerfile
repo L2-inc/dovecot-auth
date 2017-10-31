@@ -4,7 +4,7 @@ WORKDIR /etc/dovecot
 
 EXPOSE 1026
 
-RUN apk add --no-cache dovecot
+RUN apk add --no-cache dovecot-pgsql
 
 COPY dovecot /etc/dovecot
 
